@@ -11,6 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    min-width: 400px;
 }
 
 .most-outer-container {
@@ -44,6 +45,7 @@ a:hover { color: blue}
 
 
 .form-one {
+  scale(4.6);
   margin: 30px 5px;
   
 }
@@ -60,6 +62,11 @@ a:hover { color: blue}
  margin: 20px 0px;
 }
 
+.checkbox {
+    display: flex;
+    text-align: center;
+    margin-top: 2px;
+}
 
 .submit-one {
     text-align:center;
