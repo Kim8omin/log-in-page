@@ -92,3 +92,38 @@ input[type="submit"]{
     font-size: 16px;
     font-weight: bold;
  }
+
+.desktop-img {
+    display: none;
+}
+
+ @media only screen and (min-width: 992px) {
+    body {
+      background-color: lightblue;
+      
+    }
+    .most-outer-container {
+        width : 1062px;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-style: solid;
+        }
+    
+    img {
+            width: 40%;
+            margin: 5px 0px;
+    }
+
+    .submit-one {
+        text-align: left;
+    }
+
+   .desktop-img {
+    display:block;
+    width: 60%;
+   }
+
+
+  }
